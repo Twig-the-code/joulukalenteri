@@ -67,103 +67,98 @@ cardContent = [
         "assets/img/d8.jpg"
     ],
     [
-        "What do you get if you cross Santa with a duck? A Christmas Quacker!",
-        "7NzoJ",
+        " ",
+        " ",
         "assets/img/d9.jpg"
     ],
     [
-        "What do snowmen eat for breakfast? Ice Crispies.",
-        "i1Ou+",
+        "Tuvon hallituslaisia ja luottamusmiehiä tonttuilemassa tropiikissa (Marja, Maarit, Jaana, Hanna ja Kirsti)",
+        "@Tuvon hallituksen sihteeri ja Uittamon päiväkodinjohtaja Tuija Uhmavaara",
         "assets/img/d10.jpg"
     ],
     [
-        "Why is it always cold at Christmas? Because it is Decemberrrrrrr!",
-        "dzmNN",
+        "”Lelukaupan ikkunassa” (Arvid Lydecken)",
+        "@Viittoja Ida Pehkonen, lukija ja kuvaaja Tuvon hallituksen jäsen ja alueellinen varhaiskasvatuksen erityisopettaja Pirjo Laakso",
         "assets/img/d11.jpg"
     ],
     [
-        "What did one snowman say to the other snowman? Smells like carrots around here!",
-        "ohNzV",
+        "Hiutaleet maahan leijailee",
+        "@Pokka pitää -kuoro, pianossa kuoronjohtaja Johanna Järvinen",
         "assets/img/d12.jpg"
     ],
     [
-        "What does Santa use to bake cakes? Elf-raising flour",
-        "aAIal",
+        "Lucian päivä",
+        "@Kuva ja tiedot Wikipedia, koonnut tuvon hallituksen varapuheenjohtaja ja projektikoordinaattori Riikka Vuorinen",
         "assets/img/d13.jpg"
     ],
     [
-        "What do elves do after school? Their gnome work!",
-        "71NGj",
+        "Talviruno vau.fi:stä",
+        "@Tuvon hallituksen sihteeri ja Uittamon päiväkodinjohtaja Tuija Uhmavaara",
         "assets/img/d14.jpg"
     ],
     [
-        "What did the snowman say to the robin? I have snow idea!",
-        "5cadu",
+        "Taivaannaula, Annan päivä",
+        "@Tiedot Wikipedia, koonnut tuvon hallituksen jäsen ja varhaiskasvatuksen erityisopettajaopiskelija Laura Mantere",
         "assets/img/d15.jpg"
     ],
     [
-        "Why is it getting harder to buy Advent calendars? Because their days are numbered!",
-        "0Rtgk",
+        "Piparkakkutalon ohje: https://www.valio.fi/reseptit/piparkakkutalo/ Piparkakkutalon kaavat: https://www.valio.fi/joulu/piparkakkutalo/",
+        "@Tuvon hallituksen varapuheenjohtaja ja projektikoordinaattori Riikka Vuorinen",
         "assets/img/d16.jpg"
     ],
     [
-        "How does Santa keep track of all the fireplaces he's visited? He keeps a logbook.",
-        "/mvxs",
+        "”Karhun joulu”",
+        "@Viittoja Ida Pehkonen, lukija ja kuvaaja tuvon hallituksen jäsen ja alueellinen varhaiskasvatuksen erityisopettaja Pirjo Laakso",
         "assets/img/d17.jpg"
     ],
      [
-        "Who delivers presents to cats? Santa Paws!",
-        "KcKu5",
+        "Jouluinen OVTES toive",
+        "@Tuvon hallituksen jäsen ja JUKOn luottamusmies Hanna Saarinen & tuvon tiedottaja ja JUKOn luottamusmies Kirsi ”Kikka” Salo-Saarinen",
         "assets/img/d18.jpg"
     ],
      [
-        "Why does everyone love Frosty the Snowman? He's cool",
-        "+Sefv",
+        "Pieni liekki - Anna-Mari Kaskinen",
+        "@Tuvon hallituksen sihteeri ja Uittamon päiväkodinjohtaja Tuija Uhmavaara",
         "assets/img/d19.jpg"
     ],
      [
-        "What is white and minty? A polo bear!",
-        "kApsZ",
+        "Joulusauna - Tuula Korolainen (kirjasta Kuono kohti joulua)",
+        "@Tuvon hallituksen jäsen ja Karhunaukion päiväkodinjohtaja Maarit Kallioniemi",
         "assets/img/d20.jpg"
     ],
     [
-        "What’s green, covered in tinsel and goes ribbet ribbet? A mistle-toad!",
-        "HTsvd",
+        "Leivontaohje, joka on vuosia sitten löydetty mahdollisesti Pirkka-lehdestä.",
+        "@Tuvon hallituksen jäsen ja Karhunaukion päiväkodinjohtaja Maarit Kallioniemi",
         "assets/img/d21.jpg"
     ],
     [
-        "How did Scrooge win the football game? The ghost of Christmas passed!",
-        "UujuL",
+        "Muumien joulu - kirjasta Muumilaakson neljä vuodenaikaa (Tove Jansson, Sami Malila)",
+        "@Äänenä (ääni muutettu) tuvon hallituksen jäsen ja varhaiskasvatuksen erityisopettajaopiskelija Laura Mantere",
         "assets/img/d22.jpg"
     ],
     [
-        "What’s the absolute best Christmas present? A broken drum — you can’t beat it!",
-        "NG1lO",
+        "Pukki tietää",
+        "@Pokka pitää -kuoro, pianossa kuoronjohtaja Johanna Järvinen",
         "assets/img/d23.jpg"
     ],
      [
-        "What type of cars do elves drive? Toy-otas!",
-        "LsWC3",
+        " ",
+        " ",
         "assets/img/d24.jpg"
-    ],
-    [   
-        "The encryption is 128-bit AES and your secret password is rudoplh 🦌 Go decrypt your secret message!",
-        "mD8yR",
-        "assets/img/d25.jpg"
     ]
 ]
 
 cheatContent = [
     [
-        "Santa says it isn't this day yet!",
+        "Joulupukki sanoo, että tämä päivä ei ole vielä!",
         "assets/img/cheat1.jpg"
     ],
     [
-        "Stop trying to sneak a look at days in the future!",
+        "Älä yritä vilkaista tulevia päiviä!",
         "assets/img/cheat2.jpg"
     ],
     [
-        "It still isn't this day yet!",
+        "Vielä ei ole tämä päivä!",
         "assets/img/cheat3.jpg"
     ]
 ]
