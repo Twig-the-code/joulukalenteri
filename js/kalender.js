@@ -3,16 +3,8 @@ $('.card').click(function(){
     // set date header for card
     let id = $(this).attr("id")
     let content = cardContent[id-1]
-    if (id == 1 || id == 21) {
-        date = id + "st December"
-    } else if (id == 2 || id == 22){
-        date = id + "nd December"
-    } else if (id == 3 || id == 23){
-        date = id + "rd December"
-    } else {
-        date = id + "th December"
-    }
-
+    let date = id + ". joulukuuta"
+    
     $("#kalender-date").text(date)
 
     // set card text content
@@ -25,7 +17,7 @@ $('.card').click(function(){
         $("#modal-text1").text(content[0])
     } else {
         $("#modal-text").removeClass("cheat-text").addClass("secret-code")
-        $("#modal-text2").show().text("Super Secret Code: " + content[1])
+        $("#modal-text2").show().text(content[1])
         $("#modal-img").attr("src", content[2])
         $("#modal-text1").text(content[0])
     }
@@ -35,43 +27,43 @@ $('.card').click(function(){
 
 cardContent = [
     [
-        "For your advent calender this year, every day you get a secret code. Put them all together and on Christmas day you'll get a secret message",
-        "Ly48ce",
+        "Kirje joulupukille",
+        "@Tuvon hallituksen puheenjohtaja ja alueellinen varhaiskasvatuksen erityisopettaja Ritva-Liisa Pihlainen",
         "assets/img/d1.jpg"
     ],
     [
-        "Who delivers presents to baby sharks at Christmas? Santa Jaws!",
-        "Jfcuu",
+        "Varhaiskasvatuksen palvelualuejohtaja Vesa Kulmalan joulutervehdys",
+        " ",
         "assets/img/d2.jpg"
     ],
     [
-        "What do Santa’s little helpers learn at school? The elf-abet!",
-        "vxUMQ",
+        "Tonttu-tervehdys",
+        "@Tuvon hallituksen jäsenen ja Karhunaukion päiväkodinjohtajan Maarit Kallioniemi",
         "assets/img/d3.jpg"
     ],
     [
-        "What was Santa's best subject in school? Chemistree",
-        "XTY4j",
+        "Tuvon hallituslaisia tonttuilemassa (Ritva-Liisa, Riikka, Tuija, Laura ja Pirjo)",
+        "@Tuvon hallituksen sihteeri ja Uittamon päiväkodinjohtaja Tuija Uhmavaara",
         "assets/img/d4.jpg"
     ],
     [
-        "Who hides in the bakery at Christmas? A mince spy!",
-        "kjCoK",
+        "Entisen työsuojeluvaltuutettu Jari Haunisen jouluinen tervehdys.",
+        " ",
         "assets/img/d5.jpg"
     ],
     [
-        "How did Mrs. Claus tell Santa the weather? 'It looks like rain, dear!'",
-        "eItUl",
+        "Hyvää itsenäisyyspäivää Maamme-laulun sanoin Robinin laulamana (YouTube)",
+        "@Tuvon hallituksen varapuheenjohtaja ja projektikoordinaattori Riikka Vuorinen",
         "assets/img/d6.jpg"
     ],
     [
-        "What does Santa use to measure? Santameters!",
-        "1X7a8",
+        "Myskikurpitsa-kikherne curry - Instagram @anniinaskitchen",
+        "@Tuvon hallituksen sihteeri ja Uittamon päiväkodin johtaja Tuija Uhmavaara",
         "assets/img/d7.jpg"
     ],
     [
-        "What's a ghost's favorite Christmas story? The Fright Before Christmas!",
-        "BMO7B",
+        "OAJ:n puheenjohtaja Olli Luukkaisen joulunodotuksen tervehdys",
+        " ",
         "assets/img/d8.jpg"
     ],
     [
