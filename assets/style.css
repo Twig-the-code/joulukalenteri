@@ -7,12 +7,19 @@
 }
 
 .card,
+.h2 {
+  font-size: 35px;
+  font-family: "Mountains of Christmas", cursive;
+
+}
+
 .font-festive {
   font-family: "Mountains of Christmas", cursive;
 }
 
 .uppercase {
   text-transform: uppercase;
+  font-size: 45px;
 }
 
 .card {
@@ -31,8 +38,9 @@
 }
 
 .secret-code {
-  border: 3px solid #8dacc3;
-  background-color: #c1d4e3;
+  border: 1px solid#c1d4e3;
+  background-color: #fff;
+  border-radius: 20px;
 }
 
 .cheat-text {
@@ -45,6 +53,15 @@
   background-repeat: no-repeat;
   position: relative;
   background-size: cover;
+  border-radius: 20px;
+  padding: 7px;
+}
+
+.modal-content, p {
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #1c5886;
 }
 
 #kalender-date {
