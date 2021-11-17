@@ -64,6 +64,37 @@
   color: #1c5886;
 }
 
+#modal-form {
+  font-size: 18px;
+  padding-top: 14px;
+}
+
+input[type=text] {
+  width: 65%;
+  padding: 3px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 10px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 25%;
+  background-color: #3e78a5;
+  color: #fff;
+  padding: 3px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #1c5886;
+}
+
+
 #kalender-date {
   color: #1c5886;
 }
