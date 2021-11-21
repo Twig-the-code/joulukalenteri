@@ -17,11 +17,13 @@ $(".card").click(function () {
     $("#modal-text2").hide();
     $("#modal-img").attr("src", content[1]);
     $("#modal-text1").text(content[0]);
+    $("#modal-formdiv").hide();
   } else {
     $("#modal-text").removeClass("cheat-text").addClass("secret-code");
     $("#modal-text2").show().text(content[1]);
     $("#modal-img").attr("src", content[2]);
     $("#modal-text1").text(content[0]);
+    $("#modal-formdiv").show();
   }
 
   $("#modal").modal("show");
