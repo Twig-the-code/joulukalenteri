@@ -149,7 +149,16 @@ cardContent = [
 ];
 
 cheatContent = [
-  ["Joulupukki sanoo, että tämä päivä ei ole vielä!", "assets/img/cheat1.jpg"],
-  ["Älä yritä vilkaista tulevia päiviä!", "assets/img/cheat2.jpg"],
-  ["Vielä ei ole tämä päivä!", "assets/img/cheat3.jpg"],
+  [ 
+    "Joulupukki sanoo, että tämä päivä ei ole vielä!", 
+    "assets/img/cheat1.jpeg"
+  ],
+  [
+    "Älä yritä vilkaista tulevia päiviä!", 
+    "assets/img/cheat2.jpeg"
+  ],
+  [
+    "Vielä ei ole tämä päivä!", 
+    "assets/img/cheat3.jpeg"
+  ],
 ];
