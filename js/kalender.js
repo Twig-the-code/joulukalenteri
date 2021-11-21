@@ -1,3 +1,7 @@
+var date = new Date();
+var todaysDate = date.getDate();
+console.log(todaysDate);
+
 $(".card").click(function () {
   // set date header for card
   let id = $(this).attr("id");
