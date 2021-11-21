@@ -46,6 +46,8 @@
 .cheat-text {
   border: 3px solid #ce2b5c;
   background-color: #f3aac0;
+  border-radius: 20px;
+  padding: 7px;
 }
 
 .modal-content {
