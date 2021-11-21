@@ -4,10 +4,13 @@ $(".card").click(function () {
   let content = cardContent[id - 1];
   let date = id + ". joulukuuta";
 
+  var date2 = new Date();
+  var todaysDate = date2.getDate();
+
   $("#kalender-date").text(date);
 
   // set card text content
-  if (!content) {
+  if (id > todaysDate) {
     let i = Math.floor(Math.random() * 2.5);
     let content = cheatContent[i];
     $("#modal-text").addClass("cheat-text").removeClass("secret-code");
