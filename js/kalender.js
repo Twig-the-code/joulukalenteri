@@ -24,9 +24,10 @@ $(".card").click(function () {
     $("#modal-formdiv").hide();
   } else {
     $("#modal-text").removeClass("cheat-text").addClass("secret-code");
-    $("#modal-text2").show().text(content[1]);
+    $("#modal-text2").show().html(content[1]);
+    $("#modal-vid source").attr("src", content[2]);
     $("#modal-img").attr("src", content[2]);
-    $("#modal-text1").text(content[0]);
+    $("#modal-text1").html(content[0]);
     $("#modal-formdiv").show();
   }
 
@@ -35,14 +36,14 @@ $(".card").click(function () {
 
 cardContent = [
   [
-    "Kirje joulupukille",
+    '<a href="https://youtu.be/iZNv_B5nW2w">Kirje joulupukille</a>',
     "@Tuvon hallituksen puheenjohtaja ja alueellinen varhaiskasvatuksen erityisopettaja Ritva-Liisa Pihlainen",
     "assets/img/tuvo_1.jpeg",
   ],
   [
-    "Varhaiskasvatuksen palvelualuejohtaja Vesa Kulmalan joulutervehdys",
+    '<a href="https://youtu.be/YSH0f_Ni0LQ">Varhaiskasvatuksen palvelualuejohtaja Vesa Kulmalan joulutervehdys</a>',
     " ",
-    "assets/img/d2.jpg",
+    "assets/img/tuvo_2.jpeg",
   ],
   [
     "Tonttu-tervehdys",
@@ -60,7 +61,7 @@ cardContent = [
     "assets/videos/tuvo_5.mp4",
   ],
   [
-    "Hyvää itsenäisyyspäivää Maamme-laulun sanoin Robinin laulamana (YouTube)",
+    '<a href="https://www.youtube.com/watch?v=J1fN5NQXf7g"> Hyvää itsenäisyyspäivää Maamme-laulun sanoin Robinin laulamana (YouTube)</a>',
     "@Tuvon hallituksen varapuheenjohtaja ja projektikoordinaattori Riikka Vuorinen",
     "assets/img/tuvo_6.jpeg",
   ],
@@ -78,17 +79,17 @@ cardContent = [
   [
     "Tuvon hallituslaisia ja luottamusmiehiä tonttuilemassa tropiikissa (Marja, Maarit, Jaana, Hanna ja Kirsti)",
     "@Tuvon hallituksen sihteeri ja Uittamon päiväkodinjohtaja Tuija Uhmavaara",
-    "assets/img/d10.jpg",
+    "assets/videos/tuvo_10.mp4",
   ],
   [
     "”Lelukaupan ikkunassa” (Arvid Lydecken)",
     "@Viittoja Ida Pehkonen, lukija ja kuvaaja Tuvon hallituksen jäsen ja alueellinen varhaiskasvatuksen erityisopettaja Pirjo Laakso",
-    "assets/img/d11.jpg",
+    "assets/videos/tuvo_11.mp4",
   ],
   [
     "Hiutaleet maahan leijailee",
     "@Pokka pitää -kuoro, pianossa kuoronjohtaja Johanna Järvinen",
-    "assets/img/d12.jpg",
+    "assets/videos/tuvo_12.mp4",
   ],
   [
     "Lucian päivä",
@@ -98,7 +99,7 @@ cardContent = [
   [
     "Talviruno vau.fi:stä",
     "@Tuvon hallituksen sihteeri ja Uittamon päiväkodinjohtaja Tuija Uhmavaara",
-    "assets/img/d14.jpg",
+    "assets/videos/tuvo_14.mp4",
   ],
   [
     "Taivaannaula, Annan päivä",
@@ -106,14 +107,14 @@ cardContent = [
     "assets/img/d15.jpg",
   ],
   [
-    "Piparkakkutalon ohje: https://www.valio.fi/reseptit/piparkakkutalo/ Piparkakkutalon kaavat: https://www.valio.fi/joulu/piparkakkutalo/",
+    '<a href="https://www.valio.fi/reseptit/piparkakkutalo/">Piparkakkutalon ohje </a> ja <a href="https://www.valio.fi/joulu/piparkakkutalo/" > Piparkakkutalon kaavat </a> ',
     "@Tuvon hallituksen varapuheenjohtaja ja projektikoordinaattori Riikka Vuorinen",
     "assets/img/d16.jpg",
   ],
   [
     "”Karhun joulu”",
     "@Viittoja Ida Pehkonen, lukija ja kuvaaja tuvon hallituksen jäsen ja alueellinen varhaiskasvatuksen erityisopettaja Pirjo Laakso",
-    "assets/img/d17.jpg",
+    "assets/videos/tuvo_17.mp4",
   ],
   [
     "Jouluinen OVTES toive",
@@ -123,12 +124,12 @@ cardContent = [
   [
     "Pieni liekki - Anna-Mari Kaskinen",
     "@Tuvon hallituksen sihteeri ja Uittamon päiväkodinjohtaja Tuija Uhmavaara",
-    "assets/img/d19.jpg",
+    "assets/videos/tuvo_19.mp4",
   ],
   [
     "Joulusauna - Tuula Korolainen (kirjasta Kuono kohti joulua)",
     "@Tuvon hallituksen jäsen ja Karhunaukion päiväkodinjohtaja Maarit Kallioniemi",
-    "assets/img/d20.jpg",
+    "assets/videos/tuvo_20.mp4",
   ],
   [
     "Leivontaohje, joka on vuosia sitten löydetty mahdollisesti Pirkka-lehdestä.",
@@ -143,7 +144,7 @@ cardContent = [
   [
     "Pukki tietää",
     "@Pokka pitää -kuoro, pianossa kuoronjohtaja Johanna Järvinen",
-    "assets/img/d23.jpg",
+    "assets/videos/tuvo_23.mp4",
   ],
   [" ", " ", "assets/img/tuvo_24.png"],
 ];
