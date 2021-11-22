@@ -6,11 +6,10 @@
   background-size: cover;
 }
 
-.card,
+.card 
 .h2 {
   font-size: 35px;
   font-family: "Mountains of Christmas", cursive;
-
 }
 
 .font-festive {
@@ -37,35 +36,49 @@
   color: #d4af37;
 }
 
+.modal-header .close  {
+ font-size: 40px; 
+ color: #172d0e;
+ margin-right: 5px;
+}
+
 .secret-code {
-  border: 1px solid#c1d4e3;
-  background-color: #fff;
+  background-color: #c47e4d;
   border-radius: 20px;
+  padding: 20px;
 }
 
 .cheat-text {
-  border: 3px solid #ce2b5c;
   background-color: #f3aac0;
   border-radius: 20px;
   padding: 7px;
 }
 
 .modal-content {
-  background: url("https://cutewallpaper.org/21/snow-background-picture/Close-Up-Of-White-Snow-Background.jpg");
+  background-color: #cab099;
   background-repeat: no-repeat;
   position: relative;
   background-size: cover;
   border-radius: 20px;
-  padding: 7px;
+}
+
+.modal-header {
+  border: none;
 }
 
 .modal-content, p {
   font-size: 20px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  color: #1c5886;
+  color: #fff;
   padding: 7px;
 }
+
+#modal-formdiv {
+  background-color: #77856b;
+  padding: 20px;
+  border-radius: 20px;
+  }
 
 #modal-form {
   font-size: 18px;
@@ -84,7 +97,7 @@ input[type=text] {
 
 input[type=submit] {
   width: 25%;
-  background-color: #3e78a5;
+  background-color: #c47e4d;
   color: #fff;
   padding: 3px;
   border: none;
@@ -94,10 +107,9 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #1c5886;
+  background-color: #9a4d24;
 }
 
-
 #kalender-date {
-  color: #1c5886;
+  color: #172d0e;
 }
