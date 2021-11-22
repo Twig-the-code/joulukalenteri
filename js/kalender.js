@@ -37,7 +37,7 @@ cardContent = [
   [
     "Kirje joulupukille",
     "@Tuvon hallituksen puheenjohtaja ja alueellinen varhaiskasvatuksen erityisopettaja Ritva-Liisa Pihlainen",
-    "assets/img/d1.jpg",
+    "assets/img/tuvo_1.jpeg",
   ],
   [
     "Varhaiskasvatuksen palvelualuejohtaja Vesa Kulmalan joulutervehdys",
@@ -47,34 +47,34 @@ cardContent = [
   [
     "Tonttu-tervehdys",
     "@Tuvon hallituksen jäsenen ja Karhunaukion päiväkodinjohtajan Maarit Kallioniemi",
-    "assets/img/d3.jpg",
+    "assets/videos/tuvo_3.mp4",
   ],
   [
     "Tuvon hallituslaisia tonttuilemassa (Ritva-Liisa, Riikka, Tuija, Laura ja Pirjo)",
     "@Tuvon hallituksen sihteeri ja Uittamon päiväkodinjohtaja Tuija Uhmavaara",
-    "assets/img/d4.jpg",
+    "assets/videos/tuvo_4.mp4",
   ],
   [
     "Entisen työsuojeluvaltuutettu Jari Haunisen jouluinen tervehdys.",
     " ",
-    "assets/img/d5.jpg",
+    "assets/videos/tuvo_5.mp4",
   ],
   [
     "Hyvää itsenäisyyspäivää Maamme-laulun sanoin Robinin laulamana (YouTube)",
     "@Tuvon hallituksen varapuheenjohtaja ja projektikoordinaattori Riikka Vuorinen",
-    "assets/img/d6.jpg",
+    "assets/img/tuvo_6.jpeg",
   ],
   [
     "Myskikurpitsa-kikherne curry - Instagram @anniinaskitchen",
     "@Tuvon hallituksen sihteeri ja Uittamon päiväkodin johtaja Tuija Uhmavaara",
-    "assets/img/d7.jpg",
+    "assets/videos/tuvo_7.mp4",
   ],
   [
     "OAJ:n puheenjohtaja Olli Luukkaisen joulunodotuksen tervehdys",
     " ",
-    "assets/img/d8.jpg",
+    "assets/videos/tuvo_8.mp4",
   ],
-  [" ", " ", "assets/img/d9.jpg"],
+  [" ", " ", "assets/img/tuvo_09.png"],
   [
     "Tuvon hallituslaisia ja luottamusmiehiä tonttuilemassa tropiikissa (Marja, Maarit, Jaana, Hanna ja Kirsti)",
     "@Tuvon hallituksen sihteeri ja Uittamon päiväkodinjohtaja Tuija Uhmavaara",
@@ -93,7 +93,7 @@ cardContent = [
   [
     "Lucian päivä",
     "@ Lucian päivää vietetään Pyhän Lucian muistoksi vuosittain hänen kuolinpäivänään 13. joulukuuta. Muistopäivä kuuluu alun perin katoliseen pyhimyskalenteriin, mutta nykyisin sitä vietetään ennen kaikkea ruotsinkielisessä kulttuurissa. Perinteeseen kuuluu Lucia-neito, joka on pukeutunut valkoisiin vaatteisiin, punaiseen vyöhön ja kynttiläkruunuun ja pitää kädessään kynttilää. Lucia tuo valoa talven pimeyteen. Lucia (lat. lux, valo) on suomennettuna Valotar. Juliaanisessa kalenterissa talvipäivänseisaus osui keskiajalla Lucian kuolinpäivään, mikä viittaa siihen, ettei kyseessä ollut sattuma. Vuoden pisimpään yöhön ja valon juhlaan liittyneet pakanalliset tavat ja uskomukset yhdistyivät Lucian nimeen. Kuva ja lähde: https://fi.wikipedia.org/wiki/Lucian_p%C3%A4iv%C3%A4Kuva ja tiedot Wikipedia, koonnut tuvon hallituksen varapuheenjohtaja ja projektikoordinaattori Riikka Vuorinen",
-    "assets/img/d13.jpg",
+    "assets/img/tuvo_13.jpg",
   ],
   [
     "Talviruno vau.fi:stä",
@@ -118,7 +118,7 @@ cardContent = [
   [
     "Jouluinen OVTES toive",
     "@Tuvon hallituksen jäsen ja JUKOn luottamusmies Hanna Saarinen & tuvon tiedottaja ja JUKOn luottamusmies Kirsi ”Kikka” Salo-Saarinen",
-    "assets/img/d18.jpg",
+    "assets/videos/tuvo_18.mp4",
   ],
   [
     "Pieni liekki - Anna-Mari Kaskinen",
@@ -138,27 +138,18 @@ cardContent = [
   [
     "Muumien joulu - kirjasta Muumilaakson neljä vuodenaikaa (Tove Jansson, Sami Malila)",
     "@Äänenä (ääni muutettu) tuvon hallituksen jäsen ja varhaiskasvatuksen erityisopettajaopiskelija Laura Mantere",
-    "assets/img/d22.jpg",
+    "assets/img/tuvo_22.jpeg",
   ],
   [
     "Pukki tietää",
     "@Pokka pitää -kuoro, pianossa kuoronjohtaja Johanna Järvinen",
     "assets/img/d23.jpg",
   ],
-  [" ", " ", "assets/img/d24.jpg"],
+  [" ", " ", "assets/img/tuvo_24.png"],
 ];
 
 cheatContent = [
-  [ 
-    "Joulupukki sanoo, että tämä päivä ei ole vielä!", 
-    "assets/img/cheat1.jpeg"
-  ],
-  [
-    "Älä yritä vilkaista tulevia päiviä!", 
-    "assets/img/cheat2.jpeg"
-  ],
-  [
-    "Vielä ei ole tämä päivä!", 
-    "assets/img/cheat3.jpeg"
-  ],
+  ["Joulupukki sanoo, että tämä päivä ei ole vielä!", "assets/img/cheat1.jpeg"],
+  ["Älä yritä vilkaista tulevia päiviä!", "assets/img/cheat2.jpeg"],
+  ["Vielä ei ole tämä päivä!", "assets/img/cheat3.jpeg"],
 ];
