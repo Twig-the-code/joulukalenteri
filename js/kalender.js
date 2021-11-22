@@ -132,9 +132,9 @@ cardContent = [
     "assets/videos/tuvo_20.mp4",
   ],
   [
-    "Leivontaohje, joka on vuosia sitten löydetty mahdollisesti Pirkka-lehdestä.",
+    "<strong>Värikkäät Jouluikkunat</strong> <br> ½ pkt murotaikinaa (200g)<br> n. 10 hedelmäkarkkia (esim. Pirkka Karuselli pussista)<br><br> Erottele matokarkeista eriväriset osat – keltaiset, punaiset ja siniset – ja silppua. Kaaviloi kylmä taikinalevy parin millin vahvuiseksi levyksi ja ota siitä erilaisilla pikkuleipämuoteilla leipiä ja nosta pellille leivinpaperin päälle. Tee kuhunkin leipään ”ikkuna” pikkumuoteilla tai esimerkiksi metallisella pullonkorkilla. Tee jokaiseen leipään myös 1-2 reikää esimerkiksi hammastikulla ripustuslangan pujottamista varten. Levitä jokaiseen ikkunaan yksiväristä karkkisilppua ohut kattava kerros. Voit välillä laittaa taikinaa jääkappiin kovettumaan, niin saat leivottua kaikki pikkuleivät kunnes niitä on n. 16kpl. <br><br>Paista leipiä n. 180 asteen lämmössä uunin keskitasolla 8-10 min. Karkkisilppu sulaa leivän keskellä ja kiehuu paiston aikana. Jos sitä on liikaa, se kiehuu pahasti yli. Kun pikkuleivät alkavat saada väriä, ne ovat kypsiä. Anna niiden jäähtyä pellillä, mutta tee ripustusreiät uudelleen tarvittaessa. <br>Irrota jäähtyneet leivät lastalla ja pujota lankaan neulan avulla. Ripusta joulukuuseen tai ikkunaan!<br><br> Leivontaohje, joka on vuosia sitten löydetty mahdollisesti Pirkka - lehdestä.",
     "@Tuvon hallituksen jäsen ja Karhunaukion päiväkodinjohtaja Maarit Kallioniemi",
-    "assets/img/d21.jpg",
+    "assets/img/tuvo_21.jpeg",
   ],
   [
     "Muumien joulu - kirjasta Muumilaakson neljä vuodenaikaa (Tove Jansson, Sami Malila)",
