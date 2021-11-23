@@ -12,8 +12,8 @@ $(".card").click(function () {
   let todaysDate = date2.getDate();
 
   let lastContentItem = content[2];
-  let contentType = lastContentItem.slice(lastContentItem.length -3)
-  console.log(lastContentItem.slice(lastContentItem.length -3));
+  let contentType = lastContentItem.slice(lastContentItem.length - 3);
+  console.log(lastContentItem.slice(lastContentItem.length - 3));
 
   $("#kalender-date").text(date);
 
@@ -31,7 +31,8 @@ $(".card").click(function () {
       $("#modal-text").removeClass("cheat-text").addClass("secret-code");
       $("#modal-text2").show().html(content[1]);
       $("#modal-vid").attr("src", content[2]);
-      $("#modal-mp3").hide()
+      $("#modal-vid").show();
+      $("#modal-mp3").hide();
       $("#modal-img").hide();
       $("#modal-text1").html(content[0]);
       $("#modal-formdiv").show();
@@ -40,6 +41,7 @@ $(".card").click(function () {
       $("#modal-text2").show().html(content[1]);
       $("#modal-vid").hide();
       $("#modal-mp3").attr("src", content[2]);
+      $("#modal-mp3").show();
       $("#modal-img").hide();
       $("#modal-text1").html(content[0]);
       $("#modal-formdiv").show();
@@ -49,6 +51,7 @@ $(".card").click(function () {
       $("#modal-vid").hide();
       $("#modal-mp3").hide();
       $("#modal-img").attr("src", content[2]);
+      $("#modal-img").show();
       $("#modal-text1").html(content[0]);
       $("#modal-formdiv").show();
     }
@@ -116,7 +119,7 @@ cardContent = [
   ],
   [
     "Lucian päivä",
-    "@ Lucian päivää vietetään Pyhän Lucian muistoksi vuosittain hänen kuolinpäivänään 13. joulukuuta. Muistopäivä kuuluu alun perin katoliseen pyhimyskalenteriin, mutta nykyisin sitä vietetään ennen kaikkea ruotsinkielisessä kulttuurissa. Perinteeseen kuuluu Lucia-neito, joka on pukeutunut valkoisiin vaatteisiin, punaiseen vyöhön ja kynttiläkruunuun ja pitää kädessään kynttilää. Lucia tuo valoa talven pimeyteen. Lucia (lat. lux, valo) on suomennettuna Valotar. Juliaanisessa kalenterissa talvipäivänseisaus osui keskiajalla Lucian kuolinpäivään, mikä viittaa siihen, ettei kyseessä ollut sattuma. Vuoden pisimpään yöhön ja valon juhlaan liittyneet pakanalliset tavat ja uskomukset yhdistyivät Lucian nimeen. Kuva ja lähde: https://fi.wikipedia.org/wiki/Lucian_p%C3%A4iv%C3%A4Kuva ja tiedot Wikipedia, koonnut tuvon hallituksen varapuheenjohtaja ja projektikoordinaattori Riikka Vuorinen",
+    "Lucian päivää vietetään Pyhän Lucian muistoksi vuosittain hänen kuolinpäivänään 13. joulukuuta. Muistopäivä kuuluu alun perin katoliseen pyhimyskalenteriin, mutta nykyisin sitä vietetään ennen kaikkea ruotsinkielisessä kulttuurissa. Perinteeseen kuuluu Lucia-neito, joka on pukeutunut valkoisiin vaatteisiin, punaiseen vyöhön ja kynttiläkruunuun ja pitää kädessään kynttilää. Lucia tuo valoa talven pimeyteen. Lucia (lat. lux, valo) on suomennettuna Valotar. Juliaanisessa kalenterissa talvipäivänseisaus osui keskiajalla Lucian kuolinpäivään, mikä viittaa siihen, ettei kyseessä ollut sattuma. Vuoden pisimpään yöhön ja valon juhlaan liittyneet pakanalliset tavat ja uskomukset yhdistyivät Lucian nimeen. <br><br>@Kuva ja lähde: <a href='https://fi.wikipedia.org/wiki/Lucian_p%C3%A4iv%C3%A4' > Wikipedia</a>, koonnut tuvon hallituksen varapuheenjohtaja ja projektikoordinaattori Riikka Vuorinen",
     "assets/img/tuvo_13.jpg",
   ],
   [
@@ -125,7 +128,7 @@ cardContent = [
     "assets/videos/tuvo_14.mp4",
   ],
   [
-    "<strong>Taivaannaula, Annan päivä Annan päivä </strong> <br><br> Keskiajalta aina 1600-luvun lopulle joulukuun 15. päivä oli Suomessa omistettu Annalle. Tämän takia kansanperinteessä Annan päiväksi kutsutaankin usein juuri joulukuun puoliväliä. Vanhana Annan päivänä pimeys on tuntunut ihmisistä sananparsien perusteella loputtomalta. »Kyllä on yötä jouluista, Annan päivän aikuista». Jouluaattoon on kuitenkin enää yhdeksän yötä. Annan päivänä pitikin jo aloittaa joululeipomiset ja jouluoluiden valmistus. Annan pitkää yötä pidettiin sopivana aikana joulun leipomisille. Ihmiset nukkuivat illalla muutaman tunnin, mutta puoliltaöin herättiin leipomaan koristeellisia joululeipiä. Yhteen leipään, joka syötiin jouluaamuna, tehtiin »joulusilmät» eli ihmisen kasvot. Leipomisen lisäksi yöllä kierrettiin myös naapureissa pyytämässä paistinkakkua. Anteliaisuus takasi talolle leivän vuotuisen riittämisen ja hyvän kalansaaliin.<br><br>Sanottiin myös, että »Annana oluet pannaan, jouluna joukolla juodaan». Loitsuilla pyhitetty olut on ollut muinaissuomalaisten juhlajuoma. Oluen tehtävänä oli olla juhlamielen ja ilon antaja pidoissa. Hedelmällisyyteen liittyvissä juhlissa juopuminen saattoi kuulua asiaan, ja humala toi oluen ja viljan haltijan osaksi juhlaa.<br><br>Rahvaanuskossa vihreäviittainen Anna eli Annikki on metsän emäntä tai Tapion tytär. Annikki soitteli metsässä simapilliä ja istui kultaisella tuolilla kehräten vaskisella värttinällä. Metsän pedot olivat Annikin koiria, joten oli luonnollista, että karjanhoitajat pyysivät Annikkia, »juottajaa metisen juoman, katsojaa metisen karjan», varjelemaan karjaa näiltä koirilta. Metsälle lähtevä mies on pyytänyt Annikilta saalista esimerkiksi tähän tapaan:<br><br>»Annikki, tytär Tapion,<br>Juonitar, metsän emäntä,<br>Annas tuosta riistan juosta,<br>Rahan karvan katkoella<br>Poikki Pohjolan joesta,<br>Kanasaaren kainaloitse!»<br><br>Kirjoittaja: Anssi Alhonen.<br> <a href='https://www.taivaannaula.org/perinne/kansanperinteen-pyhat/annan-paiva'>lähde</a>",
+    "<strong>Taivaannaula, Annan päivä </strong> <br><br> Keskiajalta aina 1600-luvun lopulle joulukuun 15. päivä oli Suomessa omistettu Annalle. Tämän takia kansanperinteessä Annan päiväksi kutsutaankin usein juuri joulukuun puoliväliä. Vanhana Annan päivänä pimeys on tuntunut ihmisistä sananparsien perusteella loputtomalta. »Kyllä on yötä jouluista, Annan päivän aikuista». Jouluaattoon on kuitenkin enää yhdeksän yötä. Annan päivänä pitikin jo aloittaa joululeipomiset ja jouluoluiden valmistus. Annan pitkää yötä pidettiin sopivana aikana joulun leipomisille. Ihmiset nukkuivat illalla muutaman tunnin, mutta puoliltaöin herättiin leipomaan koristeellisia joululeipiä. Yhteen leipään, joka syötiin jouluaamuna, tehtiin »joulusilmät» eli ihmisen kasvot. Leipomisen lisäksi yöllä kierrettiin myös naapureissa pyytämässä paistinkakkua. Anteliaisuus takasi talolle leivän vuotuisen riittämisen ja hyvän kalansaaliin.<br><br>Sanottiin myös, että »Annana oluet pannaan, jouluna joukolla juodaan». Loitsuilla pyhitetty olut on ollut muinaissuomalaisten juhlajuoma. Oluen tehtävänä oli olla juhlamielen ja ilon antaja pidoissa. Hedelmällisyyteen liittyvissä juhlissa juopuminen saattoi kuulua asiaan, ja humala toi oluen ja viljan haltijan osaksi juhlaa.<br><br>Rahvaanuskossa vihreäviittainen Anna eli Annikki on metsän emäntä tai Tapion tytär. Annikki soitteli metsässä simapilliä ja istui kultaisella tuolilla kehräten vaskisella värttinällä. Metsän pedot olivat Annikin koiria, joten oli luonnollista, että karjanhoitajat pyysivät Annikkia, »juottajaa metisen juoman, katsojaa metisen karjan», varjelemaan karjaa näiltä koirilta. Metsälle lähtevä mies on pyytänyt Annikilta saalista esimerkiksi tähän tapaan:<br><br>»Annikki, tytär Tapion,<br>Juonitar, metsän emäntä,<br>Annas tuosta riistan juosta,<br>Rahan karvan katkoella<br>Poikki Pohjolan joesta,<br>Kanasaaren kainaloitse!»<br><br>Kirjoittaja: Anssi Alhonen.<br> <a href='https://www.taivaannaula.org/perinne/kansanperinteen-pyhat/annan-paiva'>lähde</a>",
     "@Tiedot Wikipedia, koonnut tuvon hallituksen jäsen ja varhaiskasvatuksen erityisopettajaopiskelija Laura Mantere",
     "assets/img/tuvo_15.jpeg",
   ],
