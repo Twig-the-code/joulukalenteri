@@ -62,12 +62,12 @@ $(".card").click(function () {
 
 cardContent = [
   [
-    '<a href="https://youtu.be/iZNv_B5nW2w">Kirje joulupukille</a>',
+    '<a href="https://youtu.be/iZNv_B5nW2w">Kirje joulupukille (youtube)</a>',
     "@Tuvon hallituksen puheenjohtaja ja alueellinen varhaiskasvatuksen erityisopettaja Ritva-Liisa Pihlainen",
     "assets/img/tuvo_1.jpeg",
   ],
   [
-    '<a href="https://youtu.be/YSH0f_Ni0LQ">Varhaiskasvatuksen palvelualuejohtaja Vesa Kulmalan joulutervehdys</a>',
+    '<a href="https://youtu.be/YSH0f_Ni0LQ">Varhaiskasvatuksen palvelualuejohtaja Vesa Kulmalan joulutervehdys (youtube)</a>',
     " ",
     "assets/img/tuvo_2.jpeg",
   ],
