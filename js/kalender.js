@@ -8,8 +8,12 @@ $(".card").click(function () {
   let content = cardContent[id - 1];
   let date = id + ". joulukuuta";
 
-  var date2 = new Date();
-  var todaysDate = date2.getDate();
+  let date2 = new Date();
+  let todaysDate = date2.getDate();
+
+  let lastContentItem = content[2];
+  let contentType = lastContentItem.slice(lastContentItem.length -3)
+  console.log(lastContentItem.slice(lastContentItem.length -3));
 
   $("#kalender-date").text(date);
 
@@ -23,12 +27,31 @@ $(".card").click(function () {
     $("#modal-text1").text(content[0]);
     $("#modal-formdiv").hide();
   } else {
-    $("#modal-text").removeClass("cheat-text").addClass("secret-code");
-    $("#modal-text2").show().html(content[1]);
-    $("#modal-vid source").attr("src", content[2]);
-    $("#modal-img").attr("src", content[2]);
-    $("#modal-text1").html(content[0]);
-    $("#modal-formdiv").show();
+    if (contentType == "mp4") {
+      $("#modal-text").removeClass("cheat-text").addClass("secret-code");
+      $("#modal-text2").show().html(content[1]);
+      $("#modal-vid").attr("src", content[2]);
+      $("#modal-mp3").hide()
+      $("#modal-img").hide();
+      $("#modal-text1").html(content[0]);
+      $("#modal-formdiv").show();
+    } else if (contentType == "mp3") {
+      $("#modal-text").removeClass("cheat-text").addClass("secret-code");
+      $("#modal-text2").show().html(content[1]);
+      $("#modal-vid").hide();
+      $("#modal-mp3").attr("src", content[2]);
+      $("#modal-img").hide();
+      $("#modal-text1").html(content[0]);
+      $("#modal-formdiv").show();
+    } else {
+      $("#modal-text").removeClass("cheat-text").addClass("secret-code");
+      $("#modal-text2").show().html(content[1]);
+      $("#modal-vid").hide();
+      $("#modal-mp3").hide();
+      $("#modal-img").attr("src", content[2]);
+      $("#modal-text1").html(content[0]);
+      $("#modal-formdiv").show();
+    }
   }
 
   $("#modal").modal("show");
