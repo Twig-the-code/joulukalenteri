@@ -67,8 +67,8 @@ cardContent = [
     "assets/img/tuvo_1.jpeg",
   ],
   [
-    '<a href="https://youtu.be/YSH0f_Ni0LQ">Varhaiskasvatuksen palvelualuejohtaja Vesa Kulmalan joulutervehdys (youtube)</a>',
-    " ",
+    '<a href="https://youtu.be/YSH0f_Ni0LQ">Varhaiskasvatuksen palvelualuejohtajan joulutervehdys (youtube)</a>',
+    "@Vesa Kulmala",
     "assets/img/tuvo_2.jpeg",
   ],
   [
@@ -101,7 +101,11 @@ cardContent = [
     " ",
     "assets/videos/tuvo_8.mp4",
   ],
-  [" ", " ", "assets/img/tuvo_09.png"],
+  [
+    "<strong> ILOISTA JOULUN AIKAA! </strong> ",
+    "Toivottaa Satakunnan ja Varsinais-Suomenvaalipiirin VOL-valtuutetut",
+    "assets/img/tuvo_09.png",
+  ],
   [
     "Tuvon hallituslaisia ja luottamusmiehiä tonttuilemassa tropiikissa (Marja, Maarit, Jaana, Hanna ja Kirsti)",
     "@Tuvon hallituksen sihteeri ja Uittamon päiväkodinjohtaja Tuija Uhmavaara",
