@@ -23,6 +23,8 @@ $(".card").click(function () {
     let content = cheatContent[i];
     $("#modal-text").addClass("cheat-text").removeClass("secret-code");
     $("#modal-text2").hide();
+    $("#modal-vid").hide();
+    $("#modal-mp3").hide();
     $("#modal-img").attr("src", content[1]);
     $("#modal-text1").text(content[0]);
     $("#modal-formdiv").hide();
@@ -176,7 +178,11 @@ cardContent = [
     "@Pokka pitää -kuoro, pianossa kuoronjohtaja Johanna Järvinen",
     "assets/videos/tuvo_23.mp4",
   ],
-  [" ", " ", "assets/img/tuvo_24.png"],
+  [
+    "Toivoo Turun varhaiskasvatuksen",
+    "opettajat ry hallitus",
+    "assets/img/tuvo_24.png",
+  ],
 ];
 
 cheatContent = [

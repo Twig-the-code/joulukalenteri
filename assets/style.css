@@ -1,3 +1,7 @@
+a {
+  color: rgb(180, 255, 230);
+}
+
 .bg-kalender {
   background: url("https://images.unsplash.com/photo-1513297887119-d46091b24bfa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
   min-height: 100vh;
@@ -6,8 +10,7 @@
   background-size: cover;
 }
 
-.card 
-.h2 {
+.card .h2 {
   font-size: 35px;
   font-family: "Mountains of Christmas", cursive;
 }
@@ -36,10 +39,10 @@
   color: #d4af37;
 }
 
-.modal-header .close  {
- font-size: 40px; 
- color: #172d0e;
- margin-right: 5px;
+.modal-header .close {
+  font-size: 40px;
+  color: #172d0e;
+  margin-right: 5px;
 }
 
 .secret-code {
@@ -66,9 +69,10 @@
   border: none;
 }
 
-.modal-content, p {
+.modal-content,
+p {
   font-size: 20px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 300;
   color: #fff;
   padding: 7px;
@@ -86,14 +90,14 @@
   background-color: #77856b;
   padding: 20px;
   border-radius: 20px;
-  }
+}
 
 #modal-form {
   font-size: 18px;
   padding-top: 14px;
 }
 
-input[type=text] {
+input[type="text"] {
   width: 65%;
   padding: 3px;
   border: 1px solid #ccc;
@@ -103,7 +107,7 @@ input[type=text] {
   box-sizing: border-box;
 }
 
-input[type=submit] {
+input[type="submit"] {
   width: 25%;
   background-color: #c47e4d;
   color: #fff;
@@ -114,7 +118,7 @@ input[type=submit] {
   cursor: pointer;
 }
 
-input[type=submit]:hover {
+input[type="submit"]:hover {
   background-color: #9a4d24;
 }
 
