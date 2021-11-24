@@ -171,7 +171,7 @@ cardContent = [
   [
     "Muumien joulu - kirjasta Muumilaakson neljä vuodenaikaa (Tove Jansson, Sami Malila)",
     "@Äänenä (ääni muutettu) tuvon hallituksen jäsen ja varhaiskasvatuksen erityisopettajaopiskelija Laura Mantere",
-    "assets/img/tuvo_22.jpeg",
+    "assets/tuvo_22.mp3",
   ],
   [
     "Pukki tietää",
