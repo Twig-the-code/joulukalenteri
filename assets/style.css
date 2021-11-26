@@ -49,6 +49,7 @@ a {
   background-color: #c47e4d;
   border-radius: 20px;
   padding: 20px;
+  margin: 5px;
 }
 
 .cheat-text {
@@ -90,6 +91,7 @@ p {
   background-color: #77856b;
   padding: 20px;
   border-radius: 20px;
+  margin: 5px;
 }
 
 #modal-form {
