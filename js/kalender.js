@@ -12,7 +12,7 @@ $(".card").click(function () {
   let todaysDate = date2.getDate();
 
   // Delete this on the 1st of December
-  // todaysDate = 0;
+  todaysDate = 31;
 
   let lastContentItem = content[2];
   let contentType = lastContentItem.slice(lastContentItem.length - 3);
